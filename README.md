@@ -20,7 +20,7 @@ gcc -O3 ngram2vec.c -lpthread -lm
 
 Borrow the example from fasttext:
 
-
+```
 $ mkdir data
 
 $ wget -c http://mattmahoney.net/dc/enwik9.zip -P data
@@ -32,5 +32,6 @@ $ perl wikifil.pl data/enwik9 > data/fil9
 $ mkdir result
 
 $ ./a.out -train data/fil9 -output vec.txt -iter 3 -hs 1 -negative 5 -sample 1e-4 -threads 4 -ngrams 2
+```
 
 **Enjoy!!**
