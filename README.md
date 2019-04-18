@@ -14,7 +14,7 @@ Quite similar to word2vec, except
 
 **Install**
 
-gcc -O3 ngram2vec.c -lpthread -lm
+```gcc -O3 ngram2vec.c -lpthread -lm```
 
 **Quick Start**
 
